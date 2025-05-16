@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Template Engine</title>
+</head>
+
+<body>
+  {{ embed }}
+</body>
+
+</html>

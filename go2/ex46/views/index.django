@@ -1,0 +1,19 @@
+{% include "partials/header.django" %}
+
+<h1>{{ Title }}</h1>
+
+<h2>if</h2>
+{% if testMap.testKey %}
+    {{ testMap.testKey }}
+{% else %}
+    NOT GOOD
+{% endif %}
+
+<h2>range</h2>
+<ul>
+{% for slice in testSlice %}
+  <li>{{slice}}</li>
+{% endfor %}
+</ul>
+
+{% include "partials/footer.django" %}
